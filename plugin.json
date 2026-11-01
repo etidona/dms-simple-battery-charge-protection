@@ -1,0 +1,15 @@
+{
+    "$schema": "https://github.com/duxlabs-dev/dux-shell/raw/refs/heads/master/quickshell/PLUGINS/plugin-schema.json",
+    "id": "simpleBatteryChargeProtection",
+    "name": "Simple Battery Charge Protection",
+    "description": "One-click battery charge protection: ON stops charging at 80%, OFF charges to 100%.",
+    "version": "1.0.0",
+    "author": "etidona",
+    "icon": "battery_status_good",
+    "type": "widget",
+    "component": "./SimpleBatteryChargeProtection.qml",
+    "capabilities": ["dankbar-widget"],
+    "compositors": ["any"],
+    "dependencies": ["pkexec"],
+    "permissions": ["process", "settings_read", "settings_write"]
+}
