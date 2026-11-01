@@ -4,6 +4,7 @@
     "name": "Simple Battery Charge Protection",
     "description": "One-click battery charge protection: ON stops charging at 80%, OFF charges to 100%.",
     "version": "1.0.0",
+    "license": "GPL-3.0-or-later",
     "author": "etidona",
     "icon": "battery_status_good",
     "type": "widget",
